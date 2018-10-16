@@ -1,0 +1,17 @@
+{
+  "config":{"vendor-dir": "Vendor"},
+  "repositories": [
+    {
+      "packagist": false
+    },
+    {
+      "type": "composer",
+      "url": "http://packagist.int.jumei.com"
+    }
+  ],
+
+  "require": {
+    "Bootstrap": "1.0.1",
+    "JmArchiTracker": "0.1.0-beta"
+  }
+}
