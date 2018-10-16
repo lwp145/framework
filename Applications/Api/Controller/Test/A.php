@@ -7,4 +7,9 @@ class Controller_Test_A extends ViewController_Api
     {
         LUtil::response('1111');
     }
+
+    public function thisIsATestMethod()
+    {
+
+    }
 }
