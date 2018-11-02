@@ -1,7 +1,17 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: a1
- * Date: 2018/10/16
- * Time: 上午10:31
+ * CommonConf.
  */
+
+namespace Applications\Api\Config;
+
+class CommonConf {
+
+    public static function getList()
+    {
+        return array(
+            'url' => 'https://mob.jumei.com',
+            'h5_url' => 'http://h5.jumei.com',
+        );
+    }
+}
